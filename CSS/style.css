@@ -1,0 +1,155 @@
+
+body{
+    background-color: rosybrown;
+    min-height: 200vh;
+    padding-top: 0.01px;
+    /* background-image: url('/Images/bg-1.jpg'); */
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* nav bar */
+header{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+}
+#logo{
+    width: 15%;
+}
+#mylogo{
+    height: 40px;
+}
+
+#nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 6px;
+    color: red;
+    font-weight: bold;
+    height: auto;
+    margin-top: 13px;
+}
+
+#admin{
+    width: 20%;
+    margin-left: auto;
+    height: auto;
+    position: relative;
+}
+button#counter{
+    position: absolute;
+    top: 2px; left: 10px;
+    background-color: blue;
+    border: none; outline: none;
+    color: white;
+    height: 12px; width: 7px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+i.bi{
+    color: white;
+    margin-top: 8px;
+}
+span#food-menu{
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: red;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    margin: auto;
+    margin-top: 60px;
+    transition: opacity 0.3s ease-in-out;
+}
+span#food-menu:hover{
+    opacity: 0.4;
+}
+/* food row */
+.food-row{
+    min-height: 60vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.col-3{
+    background-color: lightblue;
+    width: 30%; height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    transition: width 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+.col-3:hover{
+    width: 29.5%;
+}
+.food-row .col-3 span#food-sample{
+    height: auto;
+    display: flex;
+    justify-content: center;    
+}
+.food-row .col-3 span#food-sample img{
+    height: 60px; width: 80px;
+}
+
+
+.food-row .col-3 span#description{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+.food-row .col-3 span#buy-now{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: green;
+    background-color: lightgreen;
+}
+
+
+#carth1{
+    width: 40%;
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 0px;
+}
+button#order{
+    background-color: blue;
+    border: none; outline: none;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+}
+
+ul#cart-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li#li{
+    background-color: white;
+}
+  
